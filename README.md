@@ -35,3 +35,7 @@ Se aplico una **Metodologia Agil** utilizando el marco de trabajo **Kanban**.
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+cd frontend
+flutter pub get
+flutter run
